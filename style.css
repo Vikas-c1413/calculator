@@ -1,0 +1,56 @@
+body {
+    
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
+.imp{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.theme
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items:end;
+    gap: 10px;
+   
+}
+.history
+
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items:end;
+    padding: 10px;
+}
+
+
+.hero
+{
+    /* display: flex;
+    flex-direction: column; */
+    height: 70vh;
+    width: 30vw;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    align-items: center;
+    padding: 23px;
+   
+}
+
+.screen input
+{
+    height: 15vh;
+    width: 100%;
+    background-color: beige;
+    box-sizing: border-box;
+}
+
